@@ -42,7 +42,6 @@ Please read the full activity, complete the tasks, and submit your implementatio
          - `docker`: for building docker image
 		 - `gcloud`: for authentication and deploying to Cloud Run
 	 - Pipeline stages:
-		 - Checkout
 		 - Unit Tests (Maven)
 		 - Build & Push Image (use `docker` and remember to authenticate so you can perform push command)
 		 - Deploy to Cloud Run
